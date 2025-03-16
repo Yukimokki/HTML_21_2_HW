@@ -271,20 +271,21 @@
                 <div class="card text"> <!-- Карточка для визуального отделения вложенных данных -->
                     <div class="card-body"> <!-- Тело карточки, внутри которого размещаются данные -->
                         <div class="row">
-                        <form>
-                            <h2>Оставьте заявку</h2>
-                            <div class="mb-3">
-                                <input type="text" class="form-control" placeholder="Имя">
-                            </div>
-                            <div class="mb-3">
-                                <input type="email" class="form-control" placeholder="Email">
-                            </div>
+                                <form>
+                                    <h2>Оставьте заявку</h2>
+                                <div class="mb-3">
 
-                            <div class="mb-3">
-                                <textarea class="form-control" placeholder="Сообщение" rows="3"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-outline-dark">Отправить</button>
-                        </form>
+                                    <input name = "name" type="text" class="form-control" id="name" placeholder="Name"
+                                        aria-describedby="emailHelp">
+
+                                </div>
+                                <div class="mb-3">
+
+                                    <input name = "email" type="email" class="form-control" id="email" placeholder="email"
+                                            aria-describedby="emailHelp">
+                             </div>
+                                <button type="submit" class="btn btn-primary form-control">Отправить</button>
+                            </form>
                         </div>
                     </div>
                 </div>
